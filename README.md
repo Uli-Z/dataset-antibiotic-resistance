@@ -53,7 +53,7 @@ The dataset is split into several CSV files linked by IDs.
     -   `organism_id`: Foreign key to `amr_code` in `organisms.csv`.
     -   `resistance_pct`: The percentage of resistant isolates.
     -   `n_isolates`: The total number of tested isolates.
--   `eucast_expected_resistance.csv`: Defines a baseline of expected (intrinsic) resistances according to EUCAST expert rules.
+-   `eucast_expected_resistance.csv`: Defines a baseline of expected (intrinsic) resistances according to EUCAST expert rules. This file follows the same structure as other resistance files, with `resistance_pct` set to `100` and `n_isolates` to `0` to signify intrinsic resistance.
 
 ## Example Usage
 
