@@ -1,0 +1,10 @@
+id,parent_id,name_de,name_en
+GP,"",Gram-positive Bakterien,Gram-positive Bacteria
+GN,"",Gram-negative Bakterien,Gram-negative Bacteria
+Caryophanales,GP,Caryophanales,Caryophanales
+Lactobacillales,GP,Lactobacillales,Lactobacillales
+Bacteroidales,GN,Bacteroidales,Bacteroidales
+Enterobacterales,GN,Enterobacterales,Enterobacterales
+Lysobacterales,GN,Lysobacterales,Lysobacterales
+Pasteurellales,GN,Pasteurellales,Pasteurellales
+Pseudomonadales,GN,Pseudomonadales,Pseudomonadales

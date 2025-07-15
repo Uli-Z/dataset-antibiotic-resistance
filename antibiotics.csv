@@ -1,0 +1,59 @@
+amr_code,class,full_name_de,full_name_en,short_name_de,short_name_en,synonyms_de,synonyms_en
+PEN,PENI,Benzylpenicillin,Benzylpenicillin,"Pen. G","Pen. G","Penicillin G","Penicillin G"
+PHN,PENI,Phenoxymethylpenicillin,Phenoxymethylpenicillin,"Pen. V","Pen. V","Penicillin V;Isocillin;Ospen","Penicillin V"
+AMP,PENI,Ampicillin,Ampicillin,AMP,AMP,"Omnipen;Principen;Binotal;Ampicillin-ratiopharm","Omnipen;Principen"
+AMX,PENI,Amoxicillin,Amoxicillin,AMX,AMX,"Amoxi;Amoxil;Ospamox",Amoxil
+AMC,PENI,Amoxicillin/Clavulansäure,"Amoxicillin/Clavulanic acid","Amx/Clv","Amx/Clv","Augmentan;Amoclav;Amoxi-Clav;Infekt-Klav","Augmentin;Co-amoxiclav"
+SAM,PENI,Ampicillin/Sulbactam,"Ampicillin/Sulbactam","Amp/Sul","Amp/Sul","Unacid;Unacid PD oral",Unasyn
+OXA,PENI,Oxacillin,Oxacillin,Oxa,Oxa,Stapenor,Bactocill
+FLC,PENI,Flucloxacillin,Flucloxacillin,Flucloxa,Fluclox,Staphylex;Floxapen,Floxapen
+MEC,PENI,Mecillinam,Mecillinam,Mecill.,Mecill.,Selexid,Selexid
+PIP,PENI,Piperacillin,Piperacillin,Pip,Pip,Pipracil;Pipril,Pipracil
+TZP,PENI,Piperacillin/Tazobactam,"Piperacillin/Tazobactam","Pip/Taz","Pip/Taz","Tazobac;Tazocin;Pip-Taz","Zosyn;Tazocin"
+CZO,CEPH1,Cefazolin,Cefazolin,Cefaz.,Cefaz.,"Cefazolin;Kefzol;Ancef","Ancef;Kefzol"
+CXM,CEPH2,Cefuroxim,Cefuroxime,Cefurox.,Cefurox.,"Zinat;Elobact;Cefurox","Zinacef;Ceftin"
+FOX,CEPH2,Cefoxitin,Cefoxitin,Cefoxitin,Cefoxitin,Mefoxitin,Mefoxin
+CRO,CEPH3,Ceftriaxon,Ceftriaxone,Ceftriaxon,Ceftriaxone,Rocephin,Rocephin
+CTX,CEPH3,Cefotaxim,Cefotaxime,Cefotax.,Cefotax.,Claforan,Claforan
+CAZ,CEPH3,Ceftazidim,Ceftazidime,Ceftaz.,Ceftaz.,Fortum,"Fortaz;Tazicef"
+CZA,CEPH3,Ceftazidim/Avibactam,"Ceftazidime/Avibactam","Caz/Avi","Caz/Avi",Zavicefta,Avycaz
+FEP,CEPH4,Cefepim,Cefepime,Cefep.,Cefep.,Maxipim,Maxipime
+CPT,CEPH5,Ceftarolin,Ceftaroline,Ceftarolin,Ceftaroline,Zinforo,Teflaro
+CZT,CEPH5,Ceftolozan/Tazobactam,"Ceftolozane/Tazobactam","Cef/Taz","Cef/Taz",Zerbaxa,Zerbaxa
+FDC,CEPHX,Cefiderocol,Cefiderocol,Cefiderocol,Cefiderocol,Fetcroja,Fetroja
+ETP,CARB,Ertapenem,Ertapenem,Ertap.,Ertap.,Invanz,Invanz
+IPM,CARB,Imipenem,Imipenem,Imip.,Imip.,"Zienam;Imipenem/Cilastatin","Primaxin;Imipenem/Cilastatin"
+MEM,CARB,Meropenem,Meropenem,Mero,Mero,Meronem,Merrem
+MEV,CARB,Meropenem/Vaborbactam,"Meropenem/Vaborbactam","Mero/Vab","Mero/Vab",Vaborem,Vabomere
+ATM,MONO,Aztreonam,Aztreonam,Aztreonam,Aztreonam,Azactam,Azactam
+CIP,FLUO,Ciprofloxacin,Ciprofloxacin,Cipro,Cipro,"Ciprobay;Ciprofloxacin-ratiopharm",Cipro
+LVX,FLUO,Levofloxacin,Levofloxacin,Levoflox.,Levoflox.,Tavanic,Levaquin
+MFX,FLUO,Moxifloxacin,Moxifloxacin,Moxiflox.,Moxiflox.,Avalox,Avelox
+GEN,AMGL,Gentamicin,Gentamicin,Genta,Genta,"Refobacin;Gentamicin-ratiopharm",Garamycin
+GEH,AMGL,Gentamicin (hochdosiert),"Gentamicin (high-level)","Genta (HL)","Genta (HL)","Gentamicin Hochdosis","Gentamicin high-level"
+TOB,AMGL,Tobramycin,Tobramycin,Tobra,Tobra,"Gernebcin;Tobi","Nebcin;Tobi"
+AMK,AMGL,Amikacin,Amikacin,Amikac.,Amikac.,"Amikin;Biklin",Amikin
+STR1,AMGL,Streptomycin,Streptomycin,Strepto.,Strepto.,Streptomycin,Streptomycin
+STH,AMGL,Streptomycin (hochdosiert),"Streptomycin (high-level)","Strepto (HL)","Strepto (HL)","Streptomycin Hochdosis","Streptomycin high-level"
+TCY,TETR,Tetracyclin,Tetracycline,Tetracyc.,Tetracyc.,"Tetracyclin Wolff",Sumycin
+DOX,TETR,Doxycyclin,Doxycycline,Doxy,Doxy,"Vibramycin;Doxy-Wolff",Vibramycin
+MNO,TETR,Minocyclin,Minocycline,Minocyc.,Minocyc.,"Minoclin;Skid",Minocin
+TGC,TETR,Tigecyclin,Tigecycline,Tigecyc.,Tigecyc.,Tygacil,Tygacil
+ERY,MACLINC,Erythromycin,Erythromycin,Erythro.,Erythro.,"Erythrocin;Erythromycin-ratiopharm","Ery-Tab;Erythrocin"
+CLR,MACLINC,Clarithromycin,Clarithromycin,Clarithro.,Clarithro.,"Klacid;Clarithro-beta",Biaxin
+AZM,MACLINC,Azithromycin,Azithromycin,Azithro.,Azithro.,"Zithromax;Azithromycin-ratiopharm","Zithromax;Z-Pak"
+CLI,MACLINC,Clindamycin,Clindamycin,Clinda,Clinda,"Dalacin;Sobelin",Cleocin
+VAN,GLYK,Vancomycin,Vancomycin,Vanco,Vanco,"Vancocin;Vancomycin-ratiopharm",Vancocin
+TEC,GLYK,Teicoplanin,Teicoplanin,Teicopl.,Teicopl.,Targocid,Targocid
+DAL,GLYK,Dalbavancin,Dalbavancin,Dalbavancin,Dalbavancin,Xydalba,Dalvance
+ORI,GLYK,Oritavancin,Oritavancin,Oritavancin,Oritavancin,Orbactiv,Orbactiv
+TMP,TRIM,Trimethoprim,Trimethoprim,Trimeth.,Trimeth.,Infectotrimet,"Primsol;Trimpex"
+SXT,TRIM,Trimethoprim/Sulfamethoxazol,"Trimethoprim/Sulfamethoxazole",Cotrim,"Co-trimoxazole","Eusaprim;Cotrim-forte;Bactrim","Bactrim;Septra;TMP/SMX"
+COL,POLY,Colistin,Colistin,Colist.,Colist.,Colistimethat,"Coly-Mycin M"
+LNZ,OXAZ,Linezolid,Linezolid,Linez.,Linez.,Zyvoxid,Zyvox
+DAP,MISC,Daptomycin,Daptomycin,Dapto.,Dapto.,Cubicin,Cubicin
+FOS,MISC,Fosfomycin,Fosfomycin,Fosfo.,Fosfo.,"Monuril;Fosfuro",Monurol
+NIT,MISC,Nitrofurantoin,Nitrofurantoin,Nitrofur.,Nitrofur.,"Furadantin;Nifurantin","Macrodantin;Macrobid"
+FUS,MISC,Fusidinsäure,"Fusidic acid",Fusidin,Fusidin,Fucidine,Fucidin
+MTR,MISC,Metronidazol,Metronidazole,Metro,Metro,"Clont;Flagyl",Flagyl
+RIF,RIFA,Rifampicin,Rifampicin,Rifamp.,Rifamp.,"Rifa;Eremfat","Rifadin;Rimactane"

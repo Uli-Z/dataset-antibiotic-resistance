@@ -1,0 +1,23 @@
+amr_code,class_id,full_name_de,full_name_en,short_name_de,short_name_en,synonyms_de,synonyms_en
+B_ACNTB_BMNN-C,Pseudomonadales,"Acinetobacter baumannii complex","Acinetobacter baumannii complex","A. baum.","A. baum.","Acinetobacter baumannii",
+B_BCTRD_FRGL,Bacteroidales,"Bacteroides fragilis","Bacteroides fragilis","B. frag.","B. frag.","Bacteroides-fragilis-Gruppe","Bacteroides fragilis group"
+B_CTRBC_FRND,Enterobacterales,"Citrobacter freundii","Citrobacter freundii","C. freu.","C. freu.","C. freundii",
+B_ENTRBC_CLOC,Enterobacterales,"Enterobacter cloacae","Enterobacter cloacae","E. cloa.","E. cloa.","E. cloacae",
+B_ENTRC_FCLS,Lactobacillales,"Enterococcus faecalis","Enterococcus faecalis","E. fcls.","E. fcls.","E. faecalis",
+B_ENTRC_FACM,Lactobacillales,"Enterococcus faecium","Enterococcus faecium","E. fcm.","E. fcm.","E. faecium",
+B_ESCHR_COLI,Enterobacterales,"Escherichia coli","Escherichia coli","E. coli","E. coli","E. coli",
+B_HMPHL_INFL,Pasteurellales,"Haemophilus influenzae","Haemophilus influenzae","H. influ.","H. influ.","H. flu","H. flu"
+B_KLBSL_OXYT,Enterobacterales,"Klebsiella oxytoca","Klebsiella oxytoca","K. oxy.","K. oxy.","K. oxytoca",
+B_KLBSL_PNMN,Enterobacterales,"Klebsiella pneumoniae","Klebsiella pneumoniae","K. pneu.","K. pneu.","K. pneumoniae",
+B_MRXLL_CTRR,Pseudomonadales,"Moraxella catarrhalis","Moraxella catarrhalis","M. cat.","M. cat.","Moraxella;M. catarrhalis","Moraxella;M. catarrhalis"
+B_MRGNL_MRGN,Enterobacterales,"Morganella morganii","Morganella morganii","M. morg.","M. morg.","M. morganii",
+B_PROTS_MRBL,Enterobacterales,"Proteus mirabilis","Proteus mirabilis","P. mira.","P. mira.","P. mirabilis",
+B_PSDMN_AERG,Pseudomonadales,"Pseudomonas aeruginosa","Pseudomonas aeruginosa","P. aeru.","P. aeru.","P. aeruginosa",
+B_SERRT_MRCS,Enterobacterales,"Serratia marcescens","Serratia marcescens","S. marc.","S. marc.","S. marcescens",
+B_STPHY_AURS,Caryophanales,"Staphylococcus aureus","Staphylococcus aureus","S. aur.","S. aur.","S. aureus;MRSA","S. aureus;MRSA"
+B_STPHY_EPDR,Caryophanales,"Staphylococcus epidermidis","Staphylococcus epidermidis","S. epid.","S. epid.","S. epidermidis",
+B_STPHY_LGDN,Caryophanales,"Staphylococcus lugdunensis","Staphylococcus lugdunensis","S. lugd.","S. lugd.","S. lugdunensis",
+B_STNTR_MLTP,Lysobacterales,"Stenotrophomonas maltophilia","Stenotrophomonas maltophilia","S. malto.","S. malto.","S. maltophilia",
+B_STRPT_AGLC,Lactobacillales,"Streptococcus agalactiae","Streptococcus agalactiae","S. agal.","S. agal.","Gruppe-B-Streptokokken;GBS","Group B Streptococcus;GBS"
+B_STRPT_PNMN,Lactobacillales,"Streptococcus pneumoniae","Streptococcus pneumoniae","S. pneu.","S. pneu.","Pneumokokken;S. pneumoniae","Pneumococcus;S. pneumoniae"
+B_STRPT_PYGN,Lactobacillales,"Streptococcus pyogenes","Streptococcus pyogenes","S. pyog.","S. pyog.","Gruppe-A-Streptokokken;GAS","Group A Streptococcus;GAS"
