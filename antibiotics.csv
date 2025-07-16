@@ -1,5 +1,5 @@
 amr_code,class,full_name_de,full_name_en,short_name_de,short_name_en,synonyms_de,synonyms_en
-PEN,PENI,Benzylpenicillin,Benzylpenicillin,"Pen. G","Pen. G","Penicillin G","Penicillin G"
+PEN,PENI,Penicillin,Penicillin,"Pen. G","Pen. G","Penicillin G;Benzylpenicillin","Penicillin G;Benzylpenicillin"
 PHN,PENI,Phenoxymethylpenicillin,Phenoxymethylpenicillin,"Pen. V","Pen. V","Penicillin V;Isocillin;Ospen","Penicillin V"
 AMP,PENI,Ampicillin,Ampicillin,AMP,AMP,"Omnipen;Principen;Binotal;Ampicillin-ratiopharm","Omnipen;Principen"
 AMX,PENI,Amoxicillin,Amoxicillin,AMX,AMX,"Amoxi;Amoxil;Ospamox",Amoxil
