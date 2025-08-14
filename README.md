@@ -48,7 +48,7 @@ The dataset is split into several CSV files linked by IDs.
     -   `parent_id`: Defines the hierarchy (e.g., `de-nw-2023` is more specific than `de-ars-2023`), enabling the override logic.
     -   `name_de`/`_en`: Name of the dataset.
     -   `source_file`: The filename of the corresponding CSV file containing the resistance data.
--   **Resistance Files** (e.g., `resistance-rki-ars-nw-2023.csv`): Contain the actual data points.
+-   **Resistance Files**: Contain the actual data points.
     -   `antibiotic_id`: Foreign key to `amr_code` in `antibiotics.csv`.
     -   `organism_id`: Foreign key to `amr_code` in `organisms.csv`.
     -   `resistance_pct`: The percentage of resistant isolates.
