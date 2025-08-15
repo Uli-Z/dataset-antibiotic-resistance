@@ -1,4 +1,4 @@
 id,parent_id,name_de,name_en,source_long_name_de,source_long_name_en,source_short_name_de,source_short_name_en,source_url,source_file,year
-eucast-expected,,EUCAST Erwartete Resistenzen,EUCAST Expected Resistance,EUCAST Intrinsische Resistenzdaten,EUCAST Intrinsic Resistance Data,EUCAST Erwartet,EUCAST Expected,https://www.eucast.org/expert_rules_and_intrinsic_resistance,eucast_expected_resistance.csv,
-de-ars-2023,eucast-expected,ARS Deutschland 2023,ARS Germany 2023,"Antibiotika-Resistenz-Surveillance (ARS), Gesamt-Deutschland, 2023","Antibiotic Resistance Surveillance (ARS), Germany (all), 2023",ARS Gesamt 2023,ARS Germany 2023,https://ars.rki.de/,resistance_ars_2023_extracted.csv,2023
+eucast-expected,,EUCAST Intrinsische Resistenzen,EUCAST Intrinsic Resistance,"EUCAST: Intrinsische Resistenzen und Expert-Regeln","EUCAST: Intrinsic Resistance and Expert Rules",EUCAST,EUCAST,https://www.eucast.org/expert_rules_and_intrinsic_resistance,eucast_expected_resistance.csv,
+de-ars-2023,eucast-expected,ARS Deutschland 2023,ARS Germany 2023,"Antibiotika-Resistenz-Surveillance (ARS), Deutschland (gesamt), 2023","Antibiotic Resistance Surveillance (ARS), Germany (all), 2023",ARS DE 2023,ARS Germany 2023,https://ars.rki.de/,resistance_ars_2023_extracted.csv,2023
 
