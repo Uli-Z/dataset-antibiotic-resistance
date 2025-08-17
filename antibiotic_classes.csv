@@ -1,20 +1,20 @@
-id,name_de,name_en
-PENI,Betalaktame/Penicilline,"Beta-lactams/penicillins"
-CEPH1,"Cephalosporine (1. Gen.)","Cephalosporins (1st gen.)"
-CEPH2,"Cephalosporine (2. Gen.)","Cephalosporins (2nd gen.)"
-CEPH3,"Cephalosporine (3. Gen.)","Cephalosporins (3rd gen.)"
-CEPH4,"Cephalosporine (4. Gen.)","Cephalosporins (4th gen.)"
-CEPH5,"Cephalosporine (5. Gen.)","Cephalosporins (5th gen.)"
-CEPHX,"Cephalosporine (unklassifiziert)","Cephalosporins (unclassified)"
-CARB,Carbapeneme,Carbapenems
-MONO,Monobactame,Monobactams
-FLUO,Fluorchinolone,Fluoroquinolones
-AMGL,Aminoglykoside,Aminoglycosides
-TETR,Tetracycline,Tetracyclines
-MACLINC,Makrolide/Lincosamide,"Macrolides/lincosamides"
-GLYK,Glykopeptide,Glycopeptides
-TRIM,Trimethoprime,Trimethoprims
-POLY,Polymyxine,Polymyxins
-OXAZ,Oxazolidinone,Oxazolidinones
-MISC,Sonstige Antibiotika,Other antibacterials
-RIFA,Antimykobakterielle Substanzen,Antimycobacterials
+id,name_de,name_en,synonyms_de,synonyms_en
+PENI,Betalaktame/Penicilline,"Beta-lactams/penicillins","Penicilline,Betalaktame,Beta-Laktame","Penicillins,Beta-lactams"
+CEPH1,"Cephalosporine (1. Gen.)","Cephalosporins (1st gen.)","Cephalosporine","Cephalosporins"
+CEPH2,"Cephalosporine (2. Gen.)","Cephalosporins (2nd gen.)","Cephalosporine","Cephalosporins"
+CEPH3,"Cephalosporine (3. Gen.)","Cephalosporins (3rd gen.)","Cephalosporine","Cephalosporins"
+CEPH4,"Cephalosporine (4. Gen.)","Cephalosporins (4th gen.)","Cephalosporine","Cephalosporins"
+CEPH5,"Cephalosporine (5. Gen.)","Cephalosporins (5th gen.)","Cephalosporine","Cephalosporins"
+CEPHX,"Cephalosporine (unklassifiziert)","Cephalosporins (unclassified)","Cephalosporine","Cephalosporins"
+CARB,Carbapeneme,Carbapenems,,
+MONO,Monobactame,Monobactams,,
+FLUO,Fluorchinolone,Fluoroquinolones,,
+AMGL,Aminoglykoside,Aminoglycosides,,
+TETR,Tetracycline,Tetracyclines,,
+MACLINC,Makrolide/Lincosamide,"Macrolides/lincosamides",,
+GLYK,Glykopeptide,Glycopeptides,,
+TRIM,Trimethoprime,Trimethoprims,,
+POLY,Polymyxine,Polymyxins,,
+OXAZ,Oxazolidinone,Oxazolidinones,,
+MISC,Sonstige Antibiotika,Other antibacterials,,
+RIFA,Antimykobakterielle Substanzen,Antimycobacterials,,
