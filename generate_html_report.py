@@ -5,8 +5,8 @@ from pathlib import Path
 from collections import defaultdict
 
 # --- Configuration ---
-TARGET_DATA_ID = "de-ars-2023"
-OUTPUT_HTML_BASE_NAME = "ars_2023_germany_report"
+TARGET_DATA_ID = "de-ars-2023-all"
+OUTPUT_HTML_BASE_NAME = "ars_2023_germany_report_all"
 LANGUAGES = ["de", "en"]
 
 # --- File Paths ---
