@@ -12,14 +12,14 @@ It serves as a foundational dataset for other projects and is designed to be eas
 
 The data is aggregated from established public sources and has been standardized and manually curated for this purpose.
 
-1.  **Core Data (Antibiotics, Organisms, Classes)**: The core definitions for antibiotics, microorganisms, and their classifications are derived from the **`AMR` R package**, which reflects scientific standards (including EUCAST). This data was exported and transformed into the CSV format for ease of use.
-2.  **Resistance Data**: The surveillance statistics are sourced from the public reports of the **Antibiotic Resistance Surveillance (ARS)** system by the Robert Koch Institute (RKI), Germany.
-3.  **Standardization**: All entities (antibiotics, organisms) are linked via a uniform `amr_code`. This ensures data integrity and simplifies the process of extending the dataset with new sources (e.g., from other years, regions, or countries).
+1.  **Core Data (Antibiotics, Organisms, Classes)**: The core definitions for antibiotics, microorganisms, and their classifications are derived from the **`AMR` R package**, which reflects scientific standards (including EUCAST). This data was exported and transformed into CSV format for ease of use.
+2.  **Resistance Data**: The surveillance statistics are sourced from the public reports of the **Antibiotic Resistance Surveillance (ARS)** system by the Robert Koch Institute (RKI), Germany, for the year 2023. The raw data was processed and aggregated into a clean, unified dataset.
+3.  **Standardization**: All entities (antibiotics, organisms) are linked via a uniform `amr_code` or `id`. This ensures data integrity and simplifies the process of extending the dataset with new sources.
 
 ## Key Features
 
--   **Hierarchical Data Layering**: The `data_sources.csv` file defines a hierarchical tree of data sources. This structure allows an application to layer datasets, using general data (e.g., national averages) to fill gaps in more specific datasets (e.g., regional data). A "child" node's data is considered more specific and overrides the data from its "parent".
--   **Standardized Codes**: The universal use of `amr_code` ensures data integrity across all files.
+-   **Hierarchical Data Layering**: The `data_sources.csv` file defines a hierarchical tree of data sources. This structure allows an application to layer datasets, using general data (e.g., national averages from `de-ars-2023-all`) to fill gaps in more specific datasets (e.g., ICU data from `de-ars-2023-icu`). A "child" node's data is considered more specific and overrides the data from its "parent".
+-   **Standardized Codes**: The universal use of codes ensures data integrity across all files.
 -   **Multilingual Support**: All reference data includes identifiers in both German (`_de`) and English (`_en`), making it suitable for international applications.
 -   **UI-Ready Abbreviations**: The dataset includes abbreviated short names (`short_name_de`, `short_name_en`) for antibiotics, ideal for use in space-constrained user interfaces.
 
@@ -45,10 +45,10 @@ The dataset is split into several CSV files linked by IDs.
 
 -   `data_sources.csv`: The central manifest file describing the available resistance datasets.
     -   `id`: Unique ID for the dataset.
-    -   `parent_id`: Defines the hierarchy (e.g., `de-nw-2023` is more specific than `de-ars-2023`), enabling the override logic.
+    -   `parent_id`: Defines the hierarchy (e.g., `de-ars-2023-icu` is more specific than `de-ars-2023-all`), enabling the override logic.
     -   `name_de`/`_en`: Name of the dataset.
     -   `source_file`: The filename of the corresponding CSV file containing the resistance data.
--   **Resistance Files**: Contain the actual data points.
+-   **Resistance Files**: Contain the actual data points (e.g., `resistance_ars_2023_germany_all.csv`).
     -   `antibiotic_id`: Foreign key to `amr_code` in `antibiotics.csv`.
     -   `organism_id`: Foreign key to `amr_code` in `organisms.csv`.
     -   `resistance_pct`: The percentage of resistant isolates.
@@ -57,10 +57,10 @@ The dataset is split into several CSV files linked by IDs.
 
 ## Example Usage
 
-The included Python script, `generate_html_report.py`, demonstrates how to consume the data. It reads one of the resistance files and the core data files to generate a standalone HTML report in a classic antibiogram layout (Organisms vs. Antibiotics).
+The included Python script, `generate_html_report.py`, demonstrates how to consume the data. It reads the data source manifest and the core data files to generate a standalone HTML report in a classic antibiogram layout. By default, it generates the report for the comprehensive `de-ars-2023-all` dataset.
 
 To run the script:
 ```bash
 python3 generate_html_report.py
 ```
-This will create the file `ars_2023_germany_report.html` in the root directory.
+This will create the files `ars_2023_germany_report_all_de.html` and `ars_2023_germany_report_all_en.html` in the root directory.
