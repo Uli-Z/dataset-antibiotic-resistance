@@ -1,5 +1,11 @@
 # Clinical Antibiogram Dataset
 
+<p align="center">
+  <a href="https://uli-z.github.io/dataset-antibiotic-resistance/ars_2023_germany_report_all_en.html" style="display: inline-block; padding: 12px 24px; background-color: #238636; color: white; text-decoration: none; border-radius: 6px; font-weight: bold;">
+    ➡️ View the Tabular Data Visualization
+  </a>
+</p>
+
 This repository provides a curated and standardized dataset for creating and displaying clinical antibiograms.
 
 ## Purpose
