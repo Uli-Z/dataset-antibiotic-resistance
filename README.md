@@ -18,7 +18,7 @@ It serves as a foundational dataset for other projects and is designed to be eas
 
 The data is aggregated from established public sources and has been standardized and manually curated for this purpose.
 
-1.  **Core Data (Antibiotics, Organisms, Classes)**: The core definitions for antibiotics, microorganisms, and their classifications are derived from the **`AMR` R package**, which reflects scientific standards (including EUCAST). This data was exported and transformed into the CSV format for ease of use.
+1.  **Core Data (Antibiotics, Organisms, Classes, Groups)**: The core definitions for antibiotics, microorganisms, and their classifications are derived from the **`AMR` R package**, which reflects scientific standards (including EUCAST). This data was exported and transformed into the CSV format for ease of use. Clinical and taxonomic groups were generated using custom R scripts.
 2.  **Resistance Data**: The surveillance statistics are sourced from the public reports of the **Antibiotic Resistance Surveillance (ARS)** system by the Robert Koch Institute (RKI), Germany.
 3.  **Standardization**: All entities (antibiotics, organisms) are linked via a uniform `amr_code`. This ensures data integrity and simplifies the process of extending the dataset with new sources (e.g., from other years, regions, or countries).
 
@@ -45,6 +45,11 @@ The dataset is split into several CSV files linked by IDs.
     -   `amr_code`: Unique identifier for the microorganism.
     -   `class_id`: The ID of the organism class.
     -   `full_name_de`/`_en`: Full name in German/English.
+    -   `groups`: A semicolon-separated list of group IDs from `organism_groups.csv`.
+-   `organism_groups.csv`: Defines clinical or taxonomic groups for organisms.
+    -   `id`: Unique identifier for the group.
+    -   `name_de`/`_en`: Name of the group in German/English.
+    -   `synonyms_de`/`_en`: Common synonyms for the group.
 -   `antibiotic_classes.csv` & `organism_classes.csv`: Define the respective classes and their names.
 
 ### Data Sources and Resistance Data
