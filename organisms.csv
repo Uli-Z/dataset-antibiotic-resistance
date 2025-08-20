@@ -5,7 +5,7 @@ B_CTRBC_FRND,Enterobacterales,Citrobacter freundii,Citrobacter freundii,C. freu.
 B_ENTRBC_CLOC,Enterobacterales,Enterobacter cloacae,Enterobacter cloacae,E. cloa.,E. cloa.,E. cloacae,NA,fermenters
 B_ENTRC_FCLS,Lactobacillales,Enterococcus faecalis,Enterococcus faecalis,E. fcls.,E. fcls.,E. faecalis,NA,enterococci
 B_ENTRC_FACM,Lactobacillales,Enterococcus faecium,Enterococcus faecium,E. fcm.,E. fcm.,E. faecium,NA,enterococci
-B_ESCHR_COLI,Enterobacterales,Escherichia coli,Escherichia coli,E. coli,E. coli,E. coli,NA,fermenters;enterobakteriaceae,
+B_ESCHR_COLI,Enterobacterales,Escherichia coli,Escherichia coli,E. coli,E. coli,E. coli,NA,fermenters;enterobakteriaceae
 B_HMPHL_INFL,Pasteurellales,Haemophilus influenzae,Haemophilus influenzae,H. influ.,H. influ.,H. flu,H. flu,NA
 B_KLBSL_OXYT,Enterobacterales,Klebsiella oxytoca,Klebsiella oxytoca,K. oxy.,K. oxy.,K. oxytoca,NA,fermenters;enterobakteriaceae
 B_KLBSL_PNMN,Enterobacterales,Klebsiella pneumoniae,Klebsiella pneumoniae,K. pneu.,K. pneu.,K. pneumoniae,NA,fermenters;enterobakteriaceae
