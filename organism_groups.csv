@@ -1,0 +1,8 @@
+id,name_en,name_de,synonyms_en,synonyms_de
+enterococci,Enterococci,Enterokokken,enterococcus spp.; enterococcus species,Enterococcus spp.; Enterococcus-Arten
+staphylococci,Staphylococci,Staphylokokken,staphylococcus spp.; staphylococcus species,Staphylococcus spp.; Staphylococcus-Arten
+cons,Coagulase-negative staphylococci,Koagulase-negative Staphylokokken,coagulase negative staphylococci; CoNS,koagulase negative Staphylokokken; CoNS
+staphylococcus-aureus,Staphylococcus aureus,Staphylococcus aureus,S. aureus; Staph aureus; coagulase-positive staphylococcus,S. aureus; koagulase-positiver Staphylococcus
+streptococci,Streptococci,Streptokokken,streptococcus spp.; streptococcus species,Streptococcus spp.; Streptococcus-Arten
+fermenters,Glucose-fermenting Gram-negative bacilli,Glukose-fermentierende gramnegative Stäbchen,fermenters; enterobacterales,Fermenter; Enterobakterien
+nonfermenters,Non-fermenting Gram-negative bacilli,Nicht-fermentierende gramnegative Stäbchen,nonfermenters; non-fermenters; NFGNB,Nicht-Fermenter; NFGNB
