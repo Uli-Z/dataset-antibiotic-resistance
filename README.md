@@ -19,7 +19,7 @@ It serves as a foundational dataset for other projects and is designed to be eas
 The data is aggregated from established public sources and has been standardized and manually curated for this purpose.
 
 1.  **Core Data (Antibiotics, Organisms, Classes, Groups)**: The core definitions for antibiotics, microorganisms, and their classifications are derived from the **`AMR` R package**, which reflects scientific standards (including EUCAST). This data was exported and transformed into the CSV format for ease of use. Clinical and taxonomic groups were generated using custom R scripts.
-2.  **Resistance Data**: The surveillance statistics are sourced from the public reports of the **Antibiotic Resistance Surveillance (ARS)** system by the Robert Koch Institute (RKI), Germany.
+2.  **Resistance Data**: The surveillance statistics are sourced from the public reports of the **Antibiotic Resistance Surveillance (ARS)** system by the Robert Koch Institute (RKI), Germany. This includes national summary data as well as regional data (e.g., for Northwest Germany), which was processed from raw Excel exports.
 3.  **Standardization**: All entities (antibiotics, organisms) are linked via a uniform `amr_code`. This ensures data integrity and simplifies the process of extending the dataset with new sources (e.g., from other years, regions, or countries).
 
 ## Key Features
@@ -36,42 +36,42 @@ The dataset is split into several CSV files linked by IDs.
 ### Core Data
 
 -   `antibiotics.csv`: Defines all antibiotics.
-    -   `amr_code`: Unique identifier for the antibiotic.
-    -   `class`: The ID of the antibiotic class.
-    -   `full_name_de`/`_en`: Full name in German/English.
-    -   `short_name_de`/`_en`: Abbreviated name for display purposes.
-    -   `synonyms_de`/`_en`: Common synonyms or trade names.
 -   `organisms.csv`: Defines all microorganisms.
-    -   `amr_code`: Unique identifier for the microorganism.
-    -   `class_id`: The ID of the organism class.
-    -   `full_name_de`/`_en`: Full name in German/English.
-    -   `groups`: A semicolon-separated list of group IDs from `organism_groups.csv`.
 -   `organism_groups.csv`: Defines clinical or taxonomic groups for organisms.
-    -   `id`: Unique identifier for the group.
-    -   `name_de`/`_en`: Name of the group in German/English.
-    -   `synonyms_de`/`_en`: Common synonyms for the group.
--   `antibiotic_classes.csv` & `organism_classes.csv`: Define the respective classes and their names.
+-   `antibiotic_classes.csv` & `organism_classes.csv`: Define the respective classes.
 
 ### Data Sources and Resistance Data
 
 -   `data_sources.csv`: The central manifest file describing the available resistance datasets.
-    -   `id`: Unique ID for the dataset.
-    -   `parent_id`: Defines the hierarchy (e.g., `de-nw-2023` is more specific than `de-ars-2023`), enabling the override logic.
-    -   `name_de`/`_en`: Name of the dataset.
-    -   `source_file`: The filename of the corresponding CSV file containing the resistance data.
--   **Resistance Files**: Contain the actual data points.
-    -   `antibiotic_id`: Foreign key to `amr_code` in `antibiotics.csv`.
-    -   `organism_id`: Foreign key to `amr_code` in `organisms.csv`.
-    -   `resistance_pct`: The percentage of resistant isolates.
-    -   `n_isolates`: The total number of tested isolates.
--   `eucast_expected_resistance.csv`: Defines a baseline of expected (intrinsic) resistances according to EUCAST expert rules. This file follows the same structure as other resistance files, with `resistance_pct` set to `100` and `n_isolates` to `0` to signify intrinsic resistance.
+-   **Resistance Files**: Contain the actual data points (`antibiotic_id`, `organism_id`, `resistance_pct`, `n_isolates`).
+-   `eucast_expected_resistance.csv`: Defines a baseline of expected (intrinsic) resistances according to EUCAST expert rules.
 
-## Example Usage
+*For a detailed description of the columns in each file, please refer to the file headers.*
 
-The included Python script, `generate_html_report.py`, demonstrates how to consume the data. It reads one of the resistance files and the core data files to generate a standalone HTML report in a classic antibiogram layout (Organisms vs. Antibiotics).
+## Scripts and Tools
 
-To run the script:
+This repository includes scripts to help process and extend the dataset.
+
+### `aggregate_imports.py`
+
+This Python script converts and aggregates raw data from the Excel files exported by the **ARS RKI online portal**. It processes multiple files, extracts the relevant resistance statistics, and formats them into a standardized CSV file compatible with this dataset's structure.
+
+**Usage:**
+```bash
+python3 aggregate_imports.py 'path/to/your/excel_files/*.xlsx' -o output_filename.csv
+```
+
+**Dependencies:**
+- Python 3 with the `pandas` and `openpyxl` libraries.
+- R with the `AMR` library installed.
+- The helper scripts `get_amr_code.R` and `get_antibiotic_amr_code.R` must be in the same directory.
+
+### `generate_html_report.py`
+
+This Python script demonstrates how to consume the data. It reads one of the resistance files and the core data files to generate a standalone HTML report in a classic antibiogram layout (Organisms vs. Antibiotics).
+
+**Usage:**
 ```bash
 python3 generate_html_report.py
 ```
-This will create the file `ars_2023_germany_report.html` in the root directory.
+This will create the file `ars_2023_germany_report_all_en.html` in the root directory.
